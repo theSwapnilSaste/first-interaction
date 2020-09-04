@@ -12,6 +12,8 @@ inputs:
 outputs:
   FIRST:
     description: 'Boolean that tells if the user has merged first pull request.'
+  USER:
+    description: 'Returns the username of the issue/PR author'
 runs:
   using: 'docker'
   image: 'Dockerfile'
