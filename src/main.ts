@@ -60,7 +60,7 @@ async function run() {
       return;
     }
     core.exportVariable('FIRST', 'true');
-    core.exportVariable('USER', `(@${sender})[https://www.github.com/${sender}]`);
+    core.exportVariable('USER', `@${sender}`);
     // Do nothing if no message set for this type of contribution
     const message: string = isIssue ? issueMessage : prMessage;
     if (!message) {
