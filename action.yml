@@ -9,6 +9,9 @@ inputs:
     description: 'Comment to post on an individual''s first issue'
   pr-message:
     description: 'Comment to post on an individual''s first pull request'
+inputs:
+  isFirstPull:
+    description: 'Boolean that tells if the user has merged first pull request.'
 runs:
   using: 'docker'
   image: 'Dockerfile'

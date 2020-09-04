@@ -2,7 +2,7 @@
 
 An action for filtering pull requests and issues from first-time contributors.
 
-# Usage
+## Usage
 
 See [action.yml](action.yml)
 
@@ -15,6 +15,6 @@ steps:
     pr-message: 'Message that will be displayed on users' first pr. Look, a `code block` for markdown.'
 ```
 
-# License
+## License
 
 The scripts and documentation in this project are released under the [MIT License](LICENSE)
