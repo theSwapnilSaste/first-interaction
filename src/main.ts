@@ -59,8 +59,8 @@ async function run() {
       console.log('Not the users first contribution');
       return;
     }
-    core.exportVariable('FIRST', 'true');
-core.exportVariable('USER', 'test1');
+    core.setOutput('FIRST', 'true');
+core.setOutput('USER', 'test1');
     // Do nothing if no message set for this type of contribution
     const message: string = isIssue ? issueMessage : prMessage;
     if (!message) {
